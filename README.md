@@ -189,3 +189,7 @@ The Settings page includes account controls such as logout and notification, dar
 - main entry file: [src/index.js](/Users/fridaligaias/Desktop/fypWOMYNtesting/womyn-app/src/index.js)
 - app HTML shell: [src/index.html](/Users/fridaligaias/Desktop/fypWOMYNtesting/womyn-app/src/index.html)
 - Firebase setup: [src/utils/firebase.js](/Users/fridaligaias/Desktop/fypWOMYNtesting/womyn-app/src/utils/firebase.js)
+
+----
+
+The experimental SPA skeleton for testing the adversarial image pipeline is found at: https://github.com/fridaligaias/adverserial_model_coreTest
