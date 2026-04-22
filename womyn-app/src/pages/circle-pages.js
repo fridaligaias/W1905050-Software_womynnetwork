@@ -37,7 +37,7 @@ export async function renderCircles(root) {
                             <button id="open-create-btn" class="primary-btn circles-create-btn">+ Create Circle</button>
                         </div>
                         <p class="circles-hero-description">
-                            Join smaller spaces built around shared interests, recurring conversations, and collaborative posting.
+                            Explore spaces to connect, share, and take part in what matters to you.
                         </p>
                     </div>
                 </div>
