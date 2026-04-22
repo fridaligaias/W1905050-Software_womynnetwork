@@ -110,9 +110,6 @@ export async function renderNotifications(root) {
                     ">
                         <div>
                             <h2 style="margin:0; color:var(--text-primary);">Notifications</h2>
-                            <p style="margin:0.35rem 0 0; color:var(--text-muted);">
-                                Simple updates when someone follows you, likes your post, or comments on it.
-                            </p>
                         </div>
                     </div>
 

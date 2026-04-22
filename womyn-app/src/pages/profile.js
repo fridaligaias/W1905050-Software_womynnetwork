@@ -138,7 +138,6 @@ export async function renderProfile(root, username) {
                     <label style="font-weight:bold; display:block; margin-top:1rem; margin-bottom:0.5rem;">Avatar</label>
                     <div class="profile-edit-avatar-row" style="display: flex; gap: 10px; align-items: center;">
                         <button id="shuffle-avatar-btn" class="secondary-btn profile-edit-secondary-btn" type="button">Shuffle Avatar</button>
-                        <span class="profile-edit-note" style="font-size: 0.8rem; color: #666;">(Click Save to apply)</span>
                     </div>
 
                     <div class="profile-edit-actions" style="margin-top: 1rem;">

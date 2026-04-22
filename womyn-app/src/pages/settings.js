@@ -86,7 +86,6 @@ export function renderSettings(root) {
                 <a href="#/terms" style="text-decoration: none; color: #d4a5a5; font-weight: bold; display: block; margin-bottom: 0.2rem;">
                     Terms of Use →
                 </a>
-                <p style="font-size: 0.8rem; color: #999;">This section will be expanded in the final version.</p>
             </div>
 
             <div class="settings-link-section" style="margin-bottom: 2rem;">
