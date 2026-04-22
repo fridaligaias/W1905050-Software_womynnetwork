@@ -32,9 +32,6 @@ export function renderSettings(root) {
             ">
                 <div>
                     <div style="font-weight: 600; color: var(--text-primary);">Dark Mode</div>
-                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
-                        Switch the main app surfaces between light and dark themes.
-                    </div>
                 </div>
 
                 <label class="switch" style="position: relative; display: inline-block; width: 46px; height: 24px;">
@@ -65,9 +62,6 @@ export function renderSettings(root) {
             ">
                 <div>
                     <div style="font-weight: 600; color: var(--text-primary);">Enable Notifications</div>
-                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
-                        Turn follow, like, and comment notifications on or off.
-                    </div>
                 </div>
 
                 <label class="switch" style="position: relative; display: inline-block; width: 46px; height: 24px;">
@@ -101,10 +95,10 @@ export function renderSettings(root) {
 
                     <div style="padding-top: 0.75rem;">
                         <details style="cursor: pointer;">
-                            <summary style="font-weight: 500; list-style: none; color: #333;">Why is Womyn strictly invite-only?</summary>
+                            <summary style="font-weight: 500; list-style: none; color: #333;">Why is womyn.network strictly invite-only?</summary>
                             <div class="faq-content">
                                 <p>
-                                    I believe that the best way to maintain a genuinely safe space is to protect it from the front door.
+                                    We believe that the best way to maintain a genuinely safe space is to protect it from the front door.
                                     By making the network invite-only, we can help block bots, trolls, and bad actors from mass-creating
                                     accounts, so the community stays more authentic and secure.
                                 </p>
@@ -116,12 +110,11 @@ export function renderSettings(root) {
                             <div class="faq-content">
                                 <p>
                                     On traditional platforms, AI is often used to exploit users by harvesting data, tracking behaviour,
-                                    and pushing addictive content just to keep people scrolling. At Womyn, AI is intended as a shield, not a spy.
+                                    and pushing addictive content just to keep people scrolling. At womyn.network, AI is a shield, not a spy.
                                 </p>
                                 <p>
-                                    The aim is to use artificial intelligence purely for protection: from adding noise to photos to interfere
-                                    with malicious facial recognition, to detecting non-consensual deepfakes, to supporting context-aware moderation
-                                    that can catch harassment before users have to see it. AI should defend privacy and agency rather than compromise it.
+                                    The aim is to use artificial intelligence purely for protection, maintaining the integrity of your photos and data. 
+                                    AI should defend privacy and agency rather than compromise it.
                                 </p>
                             </div>
                         </details>
@@ -130,9 +123,8 @@ export function renderSettings(root) {
                             <summary style="font-weight: 500; list-style: none; color: #333;">What is AI Image Perturbation, and why do you use it?</summary>
                             <div class="faq-content">
                                 <p>
-                                    When you upload a photo to Womyn, the system can apply a special layer of visual noise using an AI technique,
-                                    currently based on a variation of the Basic Iterative Method (BIM). To the human eye, the image still looks the same,
-                                    but to malicious algorithms and scrapers it becomes much harder to interpret cleanly.
+                                    When you post a photo on womyn.network, the system applies a special layer of visual noise using an AI technique.
+                                    To the human eye, the image still looks the same, but to malicious algorithms and scrapers it becomes much harder to interpret cleanly.
                                 </p>
                                 <p>
                                     The goal is to make it harder for your identity to be tracked, scraped, or misused across the web.
@@ -144,9 +136,8 @@ export function renderSettings(root) {
                             <summary style="font-weight: 500; list-style: none; color: #333;">How do you handle harassment and toxic behavior?</summary>
                             <div class="faq-content">
                                 <p>
-                                    In addition to the invite-only barrier and a peer-admin moderation approach, Womyn is exploring
-                                    more advanced context-aware AI moderation. Rather than depending only on easy-to-bypass keyword filters,
-                                    the goal is to better understand nuance and catch harmful behaviour earlier.
+                                    In addition to the invite-only barrier womyn.network has a regex-based moderation system, reviewed by human moderators that can issue warnings to users that breach ToS.
+                                    Anyone can see users that have been warned of ToS-breaching behaviour.
                                 </p>
                             </div>
                         </details>
@@ -155,18 +146,16 @@ export function renderSettings(root) {
                             <summary style="font-weight: 500; list-style: none; color: #333;">Why exclude men?</summary>
                             <div class="faq-content">
                                 <p>
-                                    No. Creating a space specifically for women is not about hatred toward men. It is about recognising
-                                    that women face unique vulnerabilities, realities, and experiences online.
+                                    Creating a space specifically for women involves recognising that women face unique vulnerabilities, realities, and experiences online.
                                 </p>
                                 <p>
                                     Just as women-only gyms, shelters, and networking events exist in the physical world to support safety,
-                                    comfort, and focus, the digital world can also justify dedicated spaces. The mainstream internet is already
-                                    overwhelmingly mixed-sex, and it has repeatedly proven hostile to women in areas such as harassment, surveillance,
+                                    comfort, and focus, the digital world needs them too! The mainstream internet is already
+                                    overwhelmingly mixed-sex, and it has repeatedly proven hostile to women, with ever-rising harassment, surveillance,
                                     and non-consensual image exploitation.
                                 </p>
                                 <p>
-                                    Womyn is not intended as a malicious statement against men. It is intended as a sanctuary where women can connect,
-                                    share, and exist online without constantly being on guard.
+                                    Womyn.network is intended to be a sanctuary where women can connect, share, and exist online without constantly being on guard.
                                 </p>
                             </div>
                         </details>

@@ -8,7 +8,7 @@ export function renderTerms(root) {
 
         <div class="center-col">
             <div class="feed-shell legal-shell">
-                <a href="#/settings" class="legal-back-link">← Back to settings</a>
+                <a href="#/settings" class="legal-back-link">← Back </a>
 
                 <section class="legal-hero">
                     <p class="legal-eyebrow">Community Policy</p>
